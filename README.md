@@ -10,22 +10,24 @@ Instructor: Jose Portilla
 * the packages:
   * autocomplete-python
   * platformio-ide-terminal
-      * Note: packages >  platformio-ide-terminal > settings > Shell Overrride `c:\WINDOWS\System32\cmd.exe`
+      * Note: atom > packages >  platformio-ide-terminal > settings > Shell Overrride `c:\WINDOWS\System32\cmd.exe`
 * Dependencies: *all the dependencies and versions are available in requirements.txt*
-* 
 
 
 ## Installing
 
 Create a Virtual Environment using Python 3.6 
 ```
-conda-create --name myFlaskEnv python=3.6 
+conda create -n flaskEnv python=3.6 
 ```
 Activate the Virtual Environment 
 ```
-activate myFlaskEnv
+conda activate flaskEnv
 ```
-
+Install all the requirements using the venv + requirements.txt
+```
+pip install -r requirements.txt
+```
 
 ## Author
 
